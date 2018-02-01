@@ -1,0 +1,4 @@
+#!/bin/sh -e
+PKG=$1
+AUR=https://aur.archlinux.org/${PKG}.git
+git clone $AUR
