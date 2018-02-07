@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# executed by xdm/gdm/kdm at login
+/bin/bash --login -i ~/.xinitrc
